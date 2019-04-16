@@ -1,0 +1,431 @@
+body {
+		margin:0;
+}
+
+/* Header Area */
+
+.harea {
+		background-color:#415E9B;
+		padding:10px 0;
+		font-family:tahoma;
+	
+}
+
+.logo {
+		width:30%;
+		float:left;
+	
+}
+
+.login {
+		width:70%;
+		overflow: hidden;
+	
+}
+
+
+.login input{
+		display:block;
+		margin: 4px 0 2px;
+		border:1px solid #1D2A5B;
+		padding:2px;
+		background-color:#FAFFBD;
+	
+}
+
+.login input[type="checkbox"] {
+		float:left;
+		margin-left:0px;
+	
+}
+
+.harea .username {
+		float:left;
+		margin-right:15px;
+	
+}
+
+.harea .password {
+		float:left;
+		overflow:hidden;
+		margin-right:15px;
+		
+}
+
+.harea .submit{
+		float:left;
+		overflow:hidden;
+	
+}
+
+.login label {
+		color:#FFFFFF;
+		font-size:12px;
+		display:block;
+		cursor:pointer;
+	
+}
+
+.login a {
+		color:#9CB4D8;
+		font-size:12px;
+		text-decoration: none;
+	
+}
+
+.login .username label[for="check"] {
+		overflow:hidden;
+		margin-left:2px;
+		margin-top:3px;
+		display:inline-block;
+		color:#9CB4D8;
+	
+}
+
+.login a:hover{
+		text-decoration:underline;
+	
+}
+
+.submit input {
+		background-color:#365899;
+		cursor: pointer;
+		margin-top: 18px;
+		color:#FFFFFF;
+		
+}
+
+.login form {
+		float:right;
+	
+}
+
+.container {
+		width:90%;
+		margin:auto;
+		
+}
+
+
+
+
+/* Main area 
+  ----------------------------
+*/
+
+
+/* Mobile-Area */
+
+.mainArea {
+		background: linear-gradient(#FFFFFF, #D3D8E8);
+		font-family: tahoma, arial; 
+	
+}
+
+.mobileArea {
+		float:left;
+		width:40%;
+		margin-right:23%;
+	
+}
+
+.signupArea {
+		overflow:hidden;
+		width:37%;
+	
+}
+
+.mobileImage {
+		float:left;
+		margin-right:20px;
+		margin-left: 40px;
+	
+}
+
+.mobileText {
+		overflow:hidden;
+	
+}
+
+.mobileText h4{
+		font-weight:normal;
+		font-size:14px;
+		color:#5B5981;
+	
+}
+
+.mainArea p {
+		font-size: 12px;
+		color:#959699;
+	
+}
+
+.mobileText p,
+.mobileText h4 {
+		margin: 0;
+	
+}
+
+.mobileText a {
+		font-size:12px;
+		color:#313244;
+		text-decoration:none;
+		padding: 1px 5px 4px;
+		border: 1px solid #9A9A9A;
+		background: linear-gradient(#FBFAFF, #FAFAFC);
+		float:right;
+		margin-top:60px;
+		
+	
+}
+
+.mbl {
+		margin-top: 30px;
+		background: url('images/background.png') no-repeat;
+		background-position:left bottom;
+		min-height: 290px;
+		
+	
+}
+
+/* SignUp Area */
+
+.signupArea h1 {
+		font-family: 'Roboto', sans-serif;
+		font-size:36px;
+		margin-bottom:8px;
+	
+}
+
+.signupArea h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		font-size:18px;
+		margin:0;
+	
+}
+
+.signupArea form{
+		margin-top: 12px;
+	
+}
+
+.signupArea input[type="text"],
+.signupArea input[type="password"] {
+		display:block;
+		margin-bottom: 10px;
+		width: 100%;
+		border: 1px solid #C4CDDC;
+		box-sizing: border-box;
+		padding: 10px 8px;
+		font-size: 21px;
+		border-radius: 5px;
+		color: #A4A6AA;
+	
+}
+
+.signupArea input[type="text"]:first-child {
+		width:48%;
+		float:left;
+		margin-right: 4%;
+	
+}
+
+.signupArea input[type="text"]:nth-child(2) {
+		width:48%;
+		overflow:hidden;
+	
+}
+
+.bdyselect {
+		overflow:hidden;
+	
+}
+
+.bdyselect select{
+		padding: 6px 3px;
+		border: 1px solid #B3B3B3;
+		float:left;
+	
+}
+
+.bdyselect select:last-of-type{
+		margin-right: 10px;
+	
+}
+
+.bdyselect a {
+		font-size:11px;
+		line-height: 15px;
+		display: block;
+	
+}
+
+.signupArea a:hover {
+		text-decoration: underline;
+	
+}
+
+.signupArea a {
+		color: #516FA7;
+		font-size:11px;
+		text-decoration:none;
+}
+
+.gendSelect {
+	margin-top: 15px;
+	
+}
+
+.gendSelect label {
+		cursor: pointer;
+	
+}
+
+.signupArea input[type="submit"] {
+		background: linear-gradient(#639B4F, #598B44);
+		border: 1px solid #4D8037;
+		color:#FFFFFF;
+		padding: 5px 54px;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 18px;
+		margin-top: 20px;
+		
+}
+
+.signupArea input[type="submit"]:hover {
+		background: linear-gradient(#598B44, #639B4F);
+	
+}
+
+.signupArea {
+		padding-bottom: 40px;
+	
+}
+
+.signupArea hr {
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 1px solid #666666;
+	
+}
+
+.signupArea .page p{
+		color: #516FA7;
+		font-size: 13px; 
+		font-weight: bold;
+	
+}
+
+.signupArea .page p a {
+		font-size: 13px;
+	
+}
+
+.footer {
+		font-size: 12px;
+		font-family: tahoma;
+	
+}
+
+.footer ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	
+}
+
+.footer ul li {
+		float: left;
+	
+}
+
+.footerTop,
+.footerBottom {
+		overflow:hidden;
+		padding: 10px 0;
+	
+}
+
+.footerTop a,
+.footerBottom a {
+		text-decoration: none;
+	
+}
+
+.footerTop a:hover,
+.footerBottom a:hover {
+		text-decoration: underline;
+	
+}
+
+.footer hr {
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 1px solid #cccccc;
+	
+}
+
+.footerTop ul li {
+		margin-right: 12px;
+	
+}
+
+.footerTop ul li:last-child a{
+		color: #666666;
+		padding: 2px 8px;
+	
+}
+
+.footerTop ul li:last-child a:hover{
+		background: #666666;
+	
+}
+
+.footerBottom ul {
+		width: 75%;
+	
+}
+
+.footerBottom ul li {
+		width: 10%;
+		margin-bottom: 10px;
+	
+}
+
+.footer .copyright {
+		padding-bottom: 20px;
+	
+}
+
+.footer .copyright p{
+		color: #737373;
+	
+}
+
+.footer .copyright a {
+		text-decoration: none;
+	
+}
+
+.footer .copyright a:hover {
+		text-decoration: underline;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
